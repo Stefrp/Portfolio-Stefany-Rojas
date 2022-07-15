@@ -1,0 +1,278 @@
+* {
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Dongle Regular;
+    font-size: 23px;
+    color: #282728;
+    background-color: #ece5d3;
+}
+
+.contenedor {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: El Messiri;
+    color: #282728;
+}
+
+h2,
+h3 {
+    font-family: El Messiri;
+    color: #282728;
+}
+
+header,
+section,
+footer {
+    padding-top: 2.3%;
+    padding-bottom: 2.3%;
+}
+
+section h2 {
+    margin-bottom: 2px;
+}
+
+section h3 {
+    margin-top: 1px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+/*----------------HEADER----------------*/
+header {
+    background: #f7b00a;
+    position: fixed;
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 10px;
+    
+}
+
+.dflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons-nav {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    padding-top: 8.8rem;
+    padding-bottom: 0.8rem;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: #282728;
+    font-family: El Messiri;
+}
+
+.buttons-nav:hover {
+    background-color: #f56934;
+    color: white;
+}
+
+.logo {
+    width: 280px;
+    margin: 0;
+}
+
+nav {
+    width: 400px;
+}
+
+nav ul li a {
+    font-size: 18px;
+}
+
+
+/*----------------BANNER----------------*/
+
+.Banner {
+    width: 100%;
+    height: auto;
+    margin-top: 6rem;
+
+}
+
+/*----------------SECTION 1----------------*/
+#Conoceme {
+    background-color: #ece5d3;
+}
+
+#Conoceme .perfil {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    ;
+    align-items: center;
+}
+
+.nombre {
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+}
+
+.parrafoperfil{
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+}
+
+/*----------------SECTION 2----------------*/
+#Especialidades {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #ece5d3
+}
+
+
+.programas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    ;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.barras {
+    padding-top: 5px;
+}
+
+.programas-que-manejo {
+    padding-bottom: 3rem;
+}
+
+
+
+
+
+/*--------------------------GALERIA DE PROYECTOS---------------------*/
+#proyectos{
+    background-image:url(imagen/Fondo.jpg);
+    background-color: #282728;
+    background-attachment: scroll;
+    color: #ece5d3;
+    padding-bottom: 5rem;
+}
+
+.creaciones{
+    color: #282728;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+
+#proyectos article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.ilustracion img {
+    max-width: 100%;
+    height: auto;
+}
+
+.dg1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dg1 figure {
+    width: 360px;
+}
+
+.dg1 figure img {
+    max-width: 100%;
+    height: auto;
+}
+
+.datos-personales {
+    background-color: cornflowerblue;
+    padding: 20px;
+    border-radius: 5px;
+    width: 750px;
+}
+
+
+
+/*----------------FORMULARIO----------------*/
+#contacto{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+label {
+    display: block;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px 5px;
+}
+
+.campos {
+    margin-bottom: 20px;
+}
+
+.botonform {
+    display: block;
+    width: 160px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #f56934;
+    color: #ece5d3;
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+/*----------------FOOTER----------------*/
+footer {
+    background: #282728;
+    color: white;
+}
+
+.sigueme {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.copy {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menufooter {
+    color: #ece5d3;
+}
+
+.volver {
+    color: #f7b00a;
+}
